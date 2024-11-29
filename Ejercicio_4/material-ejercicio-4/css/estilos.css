@@ -1,0 +1,70 @@
+.primeros-estilos {
+    background-color: rgb(82, 82, 212);
+    margin: 20px;
+    padding: 15px;
+}
+
+.segundos-estilos {
+    background-image: url(../img/paisaje-800x409.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.terceros-estilos {
+    border: 2px solid;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.cuartos-estilos {
+    border: 2px solid;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.quintos-estilos .div {
+    background-color: yellow;
+    text-align: center;
+    
+}
+
+.sextos-estilos {
+    border: 5px double violet;
+    background-color: gold;
+    margin: 40px;
+}
+
+.septimos-estilos {
+    background-image: url(../img/Rosario_Central_shield.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.octavos-estilos {
+    background-image: url(../img/gigante-arroyitojpg.webp);
+    background-size: 50%;
+    background-repeat: repeat-y;
+}
+
+.novenos-estilos {
+    background-color: green;
+    background-image: url(../img/rosario-central-boca-liga-profesional-2023-hinchada.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.novenos-estilos .btn {
+    background-color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.decimos-estilos {
+    width: 50%;
+    border: 3px dotted green;
+    padding: 25px;
+}
+

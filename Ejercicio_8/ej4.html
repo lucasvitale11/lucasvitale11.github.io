@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Sin DOM</title>
+</head>
+<body>
+    <script>
+        var numeros = [];
+        for (var i = 0; i < 5; i++) {
+            numeros.push(parseFloat(prompt("Ingresa el número " + (i + 1) + ":")));
+        }
+
+        var mayor = Math.max(...numeros);
+        var menor = Math.min(...numeros);
+
+        alert("El mayor número es: " + mayor);
+        alert("El menor número es: " + menor);
+    </script>
+</body>
+</html>

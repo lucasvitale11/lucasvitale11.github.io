@@ -1,0 +1,72 @@
+@media (min-width: 960px) {
+    body {
+        background-color: #333; 
+        color: #fff; 
+    }
+
+    header {
+        background-color: #444; 
+    }
+
+    p {
+        color: #ddd;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1.titulo-principal {
+        font-size: 28px; 
+    }
+
+    p.subtitulo, p.Descripcion-carrera, p.Descripcion-curso {
+        font-size: 18px; 
+    }
+}
+
+
+@media (orientation: portrait) {
+    .carreras {
+        display: none; 
+    }
+}
+
+
+@media (orientation: landscape) {
+    .carreras {
+        display: block; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    section {
+        margin: 40px 0; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    h1, h2, h3 {
+        font-family: 'Arial', sans-serif; 
+        font-size: 20px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    img {
+        width: 80%; 
+        max-width: 100%;
+        height: auto; 
+    }
+}

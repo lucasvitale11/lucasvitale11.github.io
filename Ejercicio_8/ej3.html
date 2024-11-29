@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 - Sin DOM</title>
+</head>
+<body>
+    <script>
+        var ladoA = parseFloat(prompt("Ingresa el primer lado del triángulo:"));
+        var ladoB = parseFloat(prompt("Ingresa el segundo lado del triángulo:"));
+        var ladoC = parseFloat(prompt("Ingresa el tercer lado del triángulo:"));
+
+        if (ladoA === ladoB && ladoB === ladoC) {
+            alert("El triángulo es equilátero.");
+        } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+            alert("El triángulo es isósceles.");
+        } else {
+            alert("El triángulo es escaleno.");
+        }
+    </script>
+</body>
+</html>

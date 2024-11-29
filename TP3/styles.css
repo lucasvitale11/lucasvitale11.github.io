@@ -1,0 +1,128 @@
+/* Importante: Define las fuentes en el orden de preferencia */
+body {
+    font-family: 'IBM Plex Sans', sans-serif; /* Fuente principal */
+    background-color: #001F3F; /* Fondo azul oscuro */
+    color: #FFB800; /* Amarillo más oscuro y accesible */
+    line-height: 1.6; /* Espaciado entre líneas */
+    font-size: 1.2rem;
+}
+
+/* Títulos principales */
+h1 {
+    font-size: 3rem; /* Tamaño del texto */
+    font-weight: bold; /* Negrita para mayor impacto */
+    text-align: center; /* Centrar el texto */
+    background: linear-gradient(90deg, #0074D9, #7FDBFF); /* Degradado azul */
+    -webkit-background-clip: text; /* Clipa el fondo al texto */
+    -webkit-text-fill-color: transparent; /* Hace el texto transparente para mostrar el degradado */
+    background-clip: text; /* Compatibilidad adicional */
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+/* Títulos secundarios */
+h2, h3 {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: #FFB800; /* Amarillo más oscuro */
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+/* Enlaces */
+a {
+    color: #00509E; /* Azul más oscuro para mayor contraste */
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+a:hover {
+    color: #FF851B; /* Naranja vibrante al pasar el mouse */
+    text-decoration: underline; 
+}
+
+a:focus {
+    outline: 2px dashed #FF851B; /* Color visible de enfoque */
+    outline-offset: 4px;
+}
+
+/* Listas */
+ol, ul {
+    margin: 1em 0;
+    padding-left: 1.5em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #9EDFFF; /* Azul claro */
+}
+
+ol ol, ul ul {
+    font-size: 0.9em; 
+    color: #9EDFFF; 
+    font-weight: bold;
+}
+
+/* Botones */
+button {
+    background-color: #0074D9; /* Azul medio */
+    color: #FFB800; /* Texto amarillo más oscuro */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+button:hover {
+    background-color: #001F3F; /* Azul más oscuro */
+    color: #FFFFFF; /* Texto blanco para accesibilidad */
+}
+
+/* Cajas */
+.card {
+    background-color: #001F3F; /* Fondo azul oscuro */
+    color: #FFB800; /* Texto amarillo más oscuro */
+    border: 1px solid #7FDBFF; /* Borde azul claro */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1em;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Efecto hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+}
+
+/* Títulos de las cajas */
+.card h5 {
+    color: #FFB800; /* Amarillo más oscuro */
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+/* Texto de las cajas */
+.card p {
+    color: #FFB800; /* Texto amarillo más oscuro */
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Botones dentro de las cajas */
+.card a.btn {
+    background-color: #00509E; /* Azul más oscuro para mayor contraste */
+    color: #FFFFFF; /* Texto blanco */
+    border: none;
+}
+
+.card a.btn:hover {
+    background-color: #FF851B; /* Naranja vibrante */
+    color: #000000; /* Texto negro */
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    text-align: center;
+    color: #FFB800; /* Amarillo más oscuro */
+    background-color: #001F3F;
+}

@@ -1,0 +1,46 @@
+body{
+    text-align: left;
+    font-family: Calibri;
+    line-height: 120%;
+}
+.titulo-principal {
+    color: blue;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: red;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+    
+.carreras, .cursos {
+    margin-bottom: 40px;
+}
+
+.titulo-carreras, .Titulo-cursos {
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subtitulo-carrera, .Subtitulo-cursos {
+    color:orangered ;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1opx;
+}
+
+.Descripcion-carrera, .Descripcion-curso {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+
+
